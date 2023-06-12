@@ -1,0 +1,541 @@
+@mixin problock-1 {
+    .probox-1 {
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background: linear-gradient(337.97deg, #47B46D 38.89%, #8CEE7E 106.72%);
+        text-align: left;
+        transition: 0.5s;
+        border-radius: 50%;
+        position: relative;
+        bottom: 236px;
+        left: 75px;
+        outline: 4px solid #c4edb9;
+
+
+        @media (max-width:1400px) {
+            bottom: 215px;
+            left: 60px;
+        }
+
+        @media (max-width:1200px) {
+            bottom: 185px;
+            left: 45px;
+        }
+
+        @media (max-width:992px) {
+            width: 100% !important;
+            transform: none !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            margin-bottom: 60px !important;
+            border-radius: 10px;
+        }
+
+        &:hover {
+            transform: translate(0px, -10px);
+            box-shadow: 0px 35px 20px rgb(109 205 122);
+            cursor: pointer;
+        }
+
+        .n1 {
+            top: -185px;
+            left: 0px;
+            font-size: 25px;
+            background-image: url(image/no-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 70px;
+            Transform: translateY(4em);
+            animation-name: bounce;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            @keyframes bounce {
+                from {
+                    Transform: translateY(3em);
+                }
+
+                to {
+                    Transform: translateY(4em);
+                }
+
+            }
+
+            @media (max-width:992px) {
+                animation: none;
+                transform: none !important;
+                left: 0;
+                top: -75px;
+            }
+
+
+        }
+
+        span {
+            position: absolute;
+            top: 30px;
+            color: #333;
+            transition: 0.5s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+    }
+}
+
+@mixin problock-2 {
+
+    .probox-2 {
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(270deg, #1FA2FF 5.95%, #12D8FA 52.87%) !important;
+        text-align: left;
+        transition: 0.5s;
+        border-radius: 50%;
+        position: relative;
+        bottom: 284px;
+        left: 281px;
+        outline: 4px solid #b7eff8;
+
+
+        @media (max-width:1400px) {
+            bottom: 270px;
+            left: 240px;
+        }
+
+        @media (max-width:1200px) {
+            bottom: 256px;
+            left: 192px;
+        }
+
+        @media (max-width:992px) {
+            width: 100% !important;
+            transform: none !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            margin-bottom: 60px !important;
+            border-radius: 10px;
+        }
+
+        &:hover {
+            transform: translate(0px, -10px);
+            box-shadow: 0px 35px 20px #12d8fa;
+            cursor: pointer;
+        }
+
+        .n2 {
+            top: -185px;
+            left: 0px;
+            font-size: 25px;
+            background-image: url(image/no-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 70px;
+            Transform: translateY(4em);
+            animation-name: bounce;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            @keyframes bounce {
+                from {
+                    Transform: translateY(3em);
+                }
+
+                to {
+                    Transform: translateY(4em);
+                }
+
+            }
+
+            @media (max-width:992px) {
+                animation: none;
+                transform: none !important;
+                left: 0;
+                top: -75px;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 30px;
+            color: #333;
+            transition: 0.5s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@mixin problock-3 {
+
+    .probox-3 {
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background: linear-gradient(90deg, #F09819 0%, #EDDE5D 100%);
+        text-align: left;
+        transition: 0.5s;
+        position: relative;
+        bottom: 425px;
+        left: 506px;
+        border-radius: 50%;
+        outline: 4px solid #EDDE5D;
+
+        @media (max-width:1400px) {
+            bottom: 390px;
+            left: 431px;
+        }
+
+        @media (max-width:1200px) {
+            bottom: 375px;
+            left: 358px;
+        }
+
+        @media (max-width:992px) {
+            width: 100% !important;
+            transform: none !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            margin-bottom: 60px !important;
+            border-radius: 10px;
+        }
+
+        &:hover {
+            transform: translate(0px, -10px);
+            box-shadow: 0px 35px 20px #f09819;
+            cursor: pointer;
+        }
+
+        .n3 {
+            top: -185px;
+            left: 0px;
+            font-size: 25px;
+            background-image: url(image/no-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 70px;
+            Transform: translateY(4em);
+            animation-name: bounce;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            @keyframes bounce {
+                from {
+                    Transform: translateY(3em);
+                }
+
+                to {
+                    Transform: translateY(4em);
+                }
+
+            }
+
+            @media (max-width:992px) {
+                animation: none;
+                transform: none !important;
+                left: 0;
+                top: -75px;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 30px;
+            color: #333;
+            transition: 0.5s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@mixin problock-4 {
+    .probox-4 {
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background: linear-gradient(273.29deg, #EC008C 2.17%, #FC6767 96.61%);
+        text-align: left;
+        transition: 0.5s;
+        position: relative;
+        bottom: 405px;
+        left: 720px;
+        border-radius: 50%;
+        outline: 4px solid #FC6767;
+
+
+        @media (max-width:1400px) {
+            bottom: 395px;
+            left: 617px;
+        }
+
+        @media (max-width:1200px) {
+            bottom: 377px;
+            left: 515px;
+        }
+
+        @media (max-width:992px) {
+            width: 100% !important;
+            transform: none !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            margin-bottom: 60px !important;
+            border-radius: 10px;
+        }
+
+        &:hover {
+            transform: translate(0px, -10px);
+            box-shadow: 0px 35px 20px #EC008C;
+            cursor: pointer;
+        }
+
+        .n4 {
+            top: -185px;
+            left: 0px;
+            font-size: 25px;
+            background-image: url(image/no-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 70px;
+            Transform: translateY(4em);
+            animation-name: bounce;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            @keyframes bounce {
+                from {
+                    Transform: translateY(3em);
+                }
+
+                to {
+                    Transform: translateY(4em);
+                }
+
+            }
+
+            @media (max-width:992px) {
+                animation: none;
+                transform: none !important;
+                left: 0;
+                top: -75px;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 30px;
+            color: #333;
+            transition: 0.5s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@mixin problock-5 {
+
+    .probox-5 {
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background: linear-gradient(350.77deg, #11998E 6.76%, #38EF7D 93.52%);
+        text-align: left;
+        transition: 0.5s;
+        position: relative;
+        bottom: 540px;
+        left: 953px;
+        border-radius: 50%;
+        outline: 4px solid #38EF7D;
+
+
+        @media (max-width:1400px) {
+            bottom: 517px;
+            left: 816px;
+        }
+
+        @media (max-width:1200px) {
+            bottom: 490px;
+            left: 680px;
+        }
+
+        @media (max-width:992px) {
+            width: 100% !important;
+            transform: none !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            margin-bottom: 60px !important;
+            border-radius: 10px;
+        }
+
+
+        &:hover {
+            transform: translate(0px, -10px);
+            box-shadow: 0px 35px 20px rgb(109 205 122);
+            cursor: pointer;
+        }
+
+        .n5 {
+            top: -185px;
+            left: 0px;
+            font-size: 25px;
+            background-image: url(image/no-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 70px;
+            Transform: translateY(4em);
+            animation-name: bounce;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            @keyframes bounce {
+                from {
+                    Transform: translateY(3em);
+                }
+
+                to {
+                    Transform: translateY(4em);
+                }
+
+            }
+
+            @media (max-width:992px) {
+                animation: none;
+                transform: none !important;
+                left: 0;
+                top: -75px;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 30px;
+            color: #333;
+            transition: 0.5s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@mixin problock-6 {
+
+    .probox-6 {
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background: linear-gradient(90deg, #3BD6F8 0%, #0852E1 100%);
+        text-align: left;
+        transition: 0.5s;
+        position: relative;
+        bottom: 525px;
+        left: 1159px;
+        border-radius: 50%;
+        outline: 4px solid #0852E1;
+
+        @media (max-width:1400px) {
+            bottom: 515px;
+            left: 996px;
+        }
+
+        @media (max-width:1200px) {
+            bottom: 500px;
+            left: 830px;
+        }
+
+        @media (max-width:992px) {
+            width: 100% !important;
+            transform: none !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            margin-bottom: 60px !important;
+            border-radius: 10px;
+        }
+
+
+        &:hover {
+            transform: translate(0px, -10px);
+            box-shadow: 0px 35px 20px #3BD6F8;
+            cursor: pointer;
+        }
+
+        .n6 {
+            top: -185px;
+            left: 0px;
+            font-size: 25px;
+            background-image: url(image/no-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 70px;
+            Transform: translateY(4em);
+            animation-name: bounce;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            @keyframes bounce {
+                from {
+                    Transform: translateY(3em);
+                }
+
+                to {
+                    Transform: translateY(4em);
+                }
+
+            }
+
+            @media (max-width:992px) {
+                animation: none;
+                transform: none !important;
+                left: 0;
+                top: -75px;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 30px;
+            color: #333;
+            transition: 0.5s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}

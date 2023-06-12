@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.webprofile-img {
+  width: 472px;
+  -webkit-animation: mymove 5s infinite;
+          animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+  0% {
+    transform: translateY(15px);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+@keyframes mymove {
+  0% {
+    transform: translateY(15px);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+@media (max-width: 768px) {
+  .webprofile-img {
+    width: 100% !important;
+    justify-content: unset !important;
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .webprofile-img {
+    width: 100% !important;
+  }
+}
+
+.company-section .compay-info h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color: #000000;
+  line-height: 54px;
+}
+@media (max-width: 576px) {
+  .company-section .compay-info h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+.company-section .compay-info p {
+  font-size: 20px;
+  line-height: 22px;
+}
+@media (max-width: 576px) {
+  .company-section .compay-info p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.work-section {
+  position: relative;
+}
+.work-section .work-heading {
+  text-align: center;
+}
+.work-section .work-heading h1 {
+  font-size: 50px;
+  line-height: 50px;
+  color: #000;
+  font-weight: 800;
+}
+@media (max-width: 576px) {
+  .work-section .work-heading h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+.work-section .work-heading p {
+  font-size: 25px;
+  color: #000;
+  line-height: 27px;
+}
+@media (max-width: 576px) {
+  .work-section .work-heading p {
+    font-size: 15px;
+    width: 100% !important;
+  }
+}
+.work-section .work-info .work-card {
+  box-shadow: 0px 34px 44px -20px rgba(0, 9, 129, 0.25);
+  border-radius: 10px;
+  border: 0 !important;
+  position: relative;
+  height: 100%;
+}
+.work-section .work-info .work-card::before, .work-section .work-info .work-card:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.5s;
+}
+.work-section .work-info .work-card:before {
+  bottom: 0%;
+  left: 0%;
+  border-bottom: 3px solid #F36DD4;
+  border-left: 3px solid #F36DD4;
+}
+.work-section .work-info .work-card:after {
+  top: 0%;
+  right: 0%;
+  border-top: 3px solid #F36DD4;
+  border-right: 3px solid #F36DD4;
+}
+.work-section .work-info .work-card:hover::before, .work-section .work-info .work-card:hover::after {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.work-section .work-info .work-card .work-text h3 {
+  font-size: 20px;
+  line-height: 33px;
+  color: #000000;
+  font-weight: 800;
+}
+.work-section .work-info .work-card .work-box .work-info .work-list li a {
+  font-size: 18px;
+  line-height: 30px;
+}
+@media (max-width: 400px) {
+  .work-section .work-info .work-card .work-box .work-info .work-list li a {
+    font-size: 15px;
+  }
+}
+.work-section .work-info .work-card .work-box .work-info .work-list li a::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+  left: 15px;
+  z-index: 1;
+  margin-top: 8px;
+}
+.work-section .work-info .work-card .work-box .work-info .work-list1 li a {
+  font-size: 18px;
+  line-height: 30px;
+}
+@media (max-width: 400px) {
+  .work-section .work-info .work-card .work-box .work-info .work-list1 li a {
+    font-size: 15px;
+  }
+}
+.work-section .work-info .work-card .work-box .work-info .work-list1 li a::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+  left: 160px;
+  z-index: 1;
+  margin-top: 8px;
+}
+@media (max-width: 400px) {
+  .work-section .work-info .work-card .work-box .work-info .work-list1 li a::before {
+    left: 145px;
+  }
+}
+@media (max-width: 767px) {
+  .work-section .work-info .work-card .work-box {
+    display: block;
+    padding: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .work-section .work-info .work-card .work-box {
+    padding: 5px;
+  }
+}
+.work-section .overlay {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 5px;
+  height: 110px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #836DF3 0.95%, #8C6DF3 4.95%, #A66DF3 21.95%, #B56DF3 36.95%, #BB6DF3 48.95%, #F36DD4 99.95%);
+}
+
+.webservice-section {
+  margin-bottom: 500px;
+}
+@media (max-width: 1400px) {
+  .webservice-section {
+    margin-bottom: 0 !important;
+  }
+}
+.webservice-section .webservice-heading h1 {
+  font-size: 50px;
+  line-height: 54px;
+  width: 926px;
+  font-weight: 800;
+}
+@media (max-width: 992px) {
+  .webservice-section .webservice-heading h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .webservice-section .webservice-heading h1 {
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+  }
+}
+.webservice-section .webservice-info ul li {
+  font-size: 20px;
+  line-height: 50px;
+}
+@media (max-width: 576px) {
+  .webservice-section .webservice-info ul li {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=webdev.css.map */

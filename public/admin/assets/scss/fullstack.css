@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hiring-section .hiring-content {
+  padding-top: 80px;
+}
+.hiring-section .hiring-content .hiring-heading {
+  font-size: 75px;
+  color: #000000;
+  line-height: 82px;
+  font-weight: 800;
+}
+@media (max-width: 567px) {
+  .hiring-section .hiring-content .hiring-heading {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+.hiring-section .hiring-content .hiring-btn {
+  font-size: 40.9091px;
+  line-height: 45px;
+  background: #FE0F5E;
+  color: white;
+}
+@media (max-width: 567px) {
+  .hiring-section .hiring-content .hiring-btn {
+    font-size: 25.9091px;
+    line-height: 30px;
+  }
+}
+.hiring-section .hiring-content .hiring-info {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+@media (max-width: 567px) {
+  .hiring-section .hiring-content .hiring-info {
+    font-size: 17px;
+  }
+}
+.hiring-section .hiring-content .hiring-icon {
+  font-size: 25px;
+}
+@media (max-width: 567px) {
+  .hiring-section .hiring-content .hiring-icon {
+    font-size: 20px;
+  }
+}
+@media (max-width: 567px) {
+  .hiring-section .hiring-content {
+    padding-top: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  .hiring-section .hiring-img {
+    display: none;
+  }
+}
+
+.hiring-form-section .hiring-card {
+  background: linear-gradient(90deg, #836DF3 0.95%, #8C6DF3 4.95%, #A66DF3 21.95%, #B56DF3 36.95%, #BB6DF3 48.95%, #F36DD4 99.95%);
+  border-radius: 10px;
+  padding: 10px;
+  border: 0;
+  margin-bottom: 40px;
+}
+.hiring-form-section .hiring-card .hiring-box {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 34px 44px -20px rgba(0, 9, 129, 0.25);
+  border-radius: 10px;
+  border: 3px solid #c471e6;
+}
+.hiring-form-section .hiring-card .hiring-box .hiring-box-circle {
+  width: 75px;
+  height: 75px;
+  border: 2px solid #AC7DFB;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s ease-in;
+  box-shadow: 7px 7px 10px rgb(191, 88, 244);
+}
+.hiring-form-section .hiring-card .hiring-box .hiring-box-circle:hover {
+  filter: drop-shadow(0px -1px 0px rgb(191, 88, 244)) drop-shadow(3px 3px 3px rgba(255, 255, 255, 0.8));
+  box-shadow: unset;
+  transition: 1s ease;
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media (max-width: 567px) {
+  .hiring-form-section .hiring-card .hiring-box .hiring-box-circle {
+    margin: auto;
+  }
+}
+.hiring-form-section .hiring-card .hiring-box .hiring-btn {
+  background: linear-gradient(90deg, #AC7DFB 0%, #EF6DD7 102.62%);
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  transition: 0.3s ease-in;
+  box-shadow: 5px 8px 10px rgb(191, 88, 244);
+}
+.hiring-form-section .hiring-card .hiring-box .hiring-btn:hover {
+  border-radius: 25px;
+  box-shadow: unset;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  background: white;
+  outline: 1px solid #BB6DF3;
+  background: -webkit-linear-gradient(#AC7DFB, #EF6DD7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 567px) {
+  .hiring-form-section .hiring-card .hiring-box .hiring-btn {
+    font-size: 15px;
+  }
+}
+.hiring-form-section .hiring-card .hiring-box .hiring-heading p {
+  font-size: 25px;
+  line-height: 27px;
+}
+@media (max-width: 567px) {
+  .hiring-form-section .hiring-card .hiring-box .hiring-heading p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .hiring-form-section .hiring-card .hiring-box {
+    display: block;
+    justify-content: end;
+  }
+}
+.hiring-form-section .hiring-card .hiring-link {
+  font-size: 25px;
+  line-height: 27px;
+  color: #FE0F5E;
+  text-decoration: underline;
+}
+.hiring-form-section .hiring-form-box {
+  margin-bottom: 500px;
+}
+@media (max-width: 1400px) {
+  .hiring-form-section .hiring-form-box {
+    margin-bottom: 0 !important;
+  }
+}
+.hiring-form-section .hiring-form-box .hiring-label {
+  font-size: 25px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+@media (max-width: 567px) {
+  .hiring-form-section .hiring-form-box .hiring-label {
+    font-size: 20px;
+  }
+}
+.hiring-form-section .hiring-form-box .hiring-input {
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 34px 44px -20px rgba(0, 9, 129, 0.25);
+  border-radius: 10px;
+  border: 0;
+  position: relative;
+}
+@media (max-width: 567px) {
+  .hiring-form-section .hiring-form-box .hiring-input {
+    height: 90px;
+  }
+}
+.hiring-form-section .hiring-form-box .hiring-choose-input {
+  padding: 35px;
+  display: none;
+}
+.hiring-form-section .hiring-btn {
+  background: linear-gradient(90deg, #AC7DFB 0%, #EF6DD7 102.62%);
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 8px 10px rgb(191, 88, 244);
+}
+.hiring-form-section .hiring-btn:hover {
+  border-radius: 25px;
+  box-shadow: unset;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  background: white;
+  outline: 1px solid #BB6DF3;
+  background: -webkit-linear-gradient(#AC7DFB, #EF6DD7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 992px) {
+  .hiring-form-section .hiring-btn {
+    font-size: 15px !important;
+  }
+}
+
+.form-control {
+  height: 100px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+@media (max-width: 567px) {
+  .form-control {
+    height: 90px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 27px;
+  width: 5px;
+  height: 43px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #836DF3 0.95%, #8C6DF3 4.95%, #A66DF3 21.95%, #B56DF3 36.95%, #BB6DF3 48.95%, #F36DD4 99.95%);
+}
+
+.hiring-choose-btn {
+  margin-right: 15px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #AC7DFB 0%, #EF6DD7 102.62%);
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 8px 10px rgb(191, 88, 244);
+  border: 0;
+  padding: 5px;
+}
+.hiring-choose-btn:hover {
+  border-radius: 25px;
+  box-shadow: unset;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  background: white;
+  outline: 1px solid #BB6DF3;
+  background: -webkit-linear-gradient(#AC7DFB, #EF6DD7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 992px) {
+  .hiring-choose-btn {
+    font-size: 15px !important;
+  }
+}
+
+.choose-text {
+  font-size: 20px;
+}
+@media (max-width: 992px) {
+  .choose-text {
+    font-size: 13px !important;
+  }
+}/*# sourceMappingURL=fullstack.css.map */
